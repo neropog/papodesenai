@@ -1,0 +1,165 @@
+[
+  {
+    "titulo": "Suporte técnico",
+    "pergunta": "Vocês oferecem suporte técnico?",
+    "keywords": [
+      "suporte",
+      "computador",
+      "notebook",
+      "problema técnico",
+      "help desk",
+      "atendimento",
+      "manutencao"
+    ],
+    "resposta": "Sim. A Linche TI apresenta suporte corporativo e gestão de TI, com atendimento técnico e acompanhamento de infraestrutura. O formato de atendimento e a cobertura devem ser alinhados com a equipe.",
+    "destaque": true
+  },
+  {
+    "titulo": "Segurança e firewall",
+    "pergunta": "Vocês trabalham com segurança e firewall?",
+    "keywords": [
+      "segurança",
+      "cibersegurança",
+      "firewall",
+      "antivirus",
+      "vpn",
+      "acesso",
+      "proteção"
+    ],
+    "resposta": "Sim. As soluções apresentadas incluem firewall, gestão de acesso, VPN corporativa e proteção contra ameaças digitais. Uma avaliação técnica ajuda a definir o que é adequado para sua empresa.",
+    "destaque": true
+  },
+  {
+    "titulo": "Cloud e servidores",
+    "pergunta": "Vocês fazem gestão de servidores e nuvem?",
+    "keywords": [
+      "cloud",
+      "nuvem",
+      "servidores",
+      "hospedagem",
+      "migração",
+      "infraestrutura"
+    ],
+    "resposta": "Sim. O site apresenta serviços de migração e gerenciamento de servidores em nuvem, voltados à disponibilidade e à expansão da infraestrutura.",
+    "destaque": true
+  },
+  {
+    "titulo": "Backup e recuperação",
+    "pergunta": "Vocês fazem backup e recuperação de dados?",
+    "keywords": [
+      "backup",
+      "recuperação",
+      "arquivos perdidos",
+      "dados",
+      "restaurar",
+      "recovery"
+    ],
+    "resposta": "Sim. A Linche TI apresenta rotinas automatizadas de backup em nuvem e planejamento de recuperação de desastres. A possibilidade de recuperar arquivos específicos precisa de avaliação técnica.",
+    "destaque": true
+  },
+  {
+    "titulo": "Orçamento",
+    "pergunta": "Como solicitar um orçamento?",
+    "keywords": [
+      "orçamento",
+      "preço",
+      "valor",
+      "custo",
+      "contratação",
+      "plano",
+      "mensalidade"
+    ],
+    "resposta": "O valor depende dos equipamentos, serviços necessários e do tamanho da operação. Você pode solicitar uma avaliação pela seção Contato para receber uma proposta adequada à sua empresa.",
+    "destaque": true
+  },
+  {
+    "titulo": "Contato",
+    "pergunta": "Como entrar em contato?",
+    "keywords": [
+      "contato",
+      "telefone",
+      "whatsapp",
+      "email",
+      "endereço",
+      "localização"
+    ],
+    "resposta": "Você pode usar a seção Contato deste site, o WhatsApp indicado no rodapé ou o telefone (19) 3241-3200. O endereço informado no site é Rua Jacareí, 28, Campinas/SP.",
+    "destaque": true
+  },
+  {
+    "titulo": "Atendimento remoto",
+    "pergunta": "Vocês conseguem atender remotamente?",
+    "keywords": [
+      "remoto",
+      "distancia",
+      "acesso remoto",
+      "online"
+    ],
+    "resposta": "O suporte remoto pode ser uma alternativa para vários incidentes de software e configuração. A equipe precisa confirmar se essa modalidade atende ao seu caso.",
+    "destaque": false
+  },
+  {
+    "titulo": "Atendimento presencial",
+    "pergunta": "Vocês oferecem visitas técnicas presenciais?",
+    "keywords": [
+      "presencial",
+      "visita",
+      "tecnico no local",
+      "visitas"
+    ],
+    "resposta": "Algumas necessidades de infraestrutura podem exigir avaliação no local. Consulte a equipe para confirmar disponibilidade de visita e condições para seu endereço.",
+    "destaque": false
+  },
+  {
+    "titulo": "Prazos",
+    "pergunta": "Quanto tempo demora o atendimento?",
+    "keywords": [
+      "prazo",
+      "tempo",
+      "demora",
+      "urgência",
+      "sla",
+      "resolução"
+    ],
+    "resposta": "O prazo depende da gravidade do incidente, do contrato e dos recursos necessários. Para uma estimativa realista, descreva o problema à equipe de suporte.",
+    "destaque": false
+  },
+  {
+    "titulo": "Monitoramento",
+    "pergunta": "Vocês monitoram os sistemas?",
+    "keywords": [
+      "monitoramento",
+      "rmm",
+      "noc",
+      "24/7",
+      "alertas"
+    ],
+    "resposta": "O site descreve monitoramento de infraestrutura e serviços de TI, inclusive operação 24/7. Verifique com a equipe quais recursos e horários estão incluídos na solução contratada.",
+    "destaque": false
+  },
+  {
+    "titulo": "LGPD",
+    "pergunta": "Vocês ajudam com LGPD e proteção de dados?",
+    "keywords": [
+      "lgpd",
+      "privacidade",
+      "dados pessoais",
+      "conformidade"
+    ],
+    "resposta": "A Linche TI apresenta ferramentas e processos voltados à proteção de dados e à segurança da informação. A adequação legal completa deve ser avaliada conforme as necessidades da organização.",
+    "destaque": false
+  },
+  {
+    "titulo": "Agendamento",
+    "pergunta": "Como agendar uma conversa?",
+    "keywords": [
+      "agendar",
+      "agendamento",
+      "reunião",
+      "diagnóstico",
+      "visita técnica"
+    ],
+    "resposta": "Na seção Contato, preencha nome, e-mail, data preferida e sua necessidade. O formulário abre o aplicativo de e-mail para você concluir o envio; a data depende de confirmação.",
+    "destaque": false
+  }
+]
