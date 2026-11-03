@@ -1,4 +1,4 @@
-/* JavaScript progressivo: conteúdo e modais continuam disponíveis sem ele. */
+
 'use strict';
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 const menuButton = document.querySelector('.menu-toggle');
@@ -12,8 +12,6 @@ menuButton.addEventListener('click', () => {
 });
 menu.querySelectorAll('a').forEach(link => link.addEventListener('click', closeMenu));
 menu.addEventListener('keydown', event => { if (event.key === 'Escape') { closeMenu(); menuButton.focus(); } });
-
-// Sem JS, os três destaques ficam visíveis em sequência.
 const slides = [...document.querySelectorAll('[data-slide]')];
 const dots = [...document.querySelectorAll('[data-go]')];
 let current = 0;
@@ -53,8 +51,6 @@ hero.addEventListener('focusin', pauseTimer); hero.addEventListener('focusout', 
 document.addEventListener('visibilitychange', startTimer);
 function motionPreference() { if (reducedMotion.matches) stopPlayback(); playButton.disabled = reducedMotion.matches; }
 reducedMotion.addEventListener('change', motionPreference); motionPreference();
-
-// Tilt suave: somente mouse preciso; nenhum conteúdo fica escondido no verso.
 const precisePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
 document.querySelectorAll('[data-tilt]').forEach(card => {
   let frame;
@@ -70,8 +66,6 @@ document.querySelectorAll('[data-tilt]').forEach(card => {
   function reset() { cancelAnimationFrame(frame); card.style.removeProperty('--rx'); card.style.removeProperty('--ry'); }
   card.addEventListener('pointerleave', reset); card.addEventListener('pointercancel', reset);
 });
-
-// :target é a fonte de verdade; JS acrescenta foco, Escape e contenção do teclado.
 let activeModal = null;
 let opener = null;
 const pageAreas = [...document.querySelectorAll('body > .skip-link, body > header, body > main, body > footer, body > aside')];
@@ -105,16 +99,14 @@ document.addEventListener('keydown', event => {
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
   }
 });
-
-// A preferência é opcional; falhas de armazenamento não impedem o fechamento.
 const notice = document.querySelector('.banner-cookies');
 const storageKey = 'linche-aviso-v1';
 let remembered = false;
-try { remembered = localStorage.getItem(storageKey) === 'ok'; } catch { /* modo privado */ }
+try { remembered = localStorage.getItem(storageKey) === 'ok'; } catch {  }
 notice.hidden = remembered;
 const reopen = document.querySelector('#reabrir-aviso'); reopen.hidden = false;
 function dismissNotice(save) {
-  if (save) { try { localStorage.setItem(storageKey, 'ok'); } catch { /* segue sem persistir */ } }
+  if (save) { try { localStorage.setItem(storageKey, 'ok'); } catch {  } }
   notice.hidden = true; reopen.focus({preventScroll:true});
 }
 document.querySelector('#cookies-aceitar').addEventListener('click', () => dismissNotice(true));
@@ -135,8 +127,6 @@ document.querySelector('#contato-form').addEventListener('submit', event => {
   document.querySelector('#form-status').textContent = 'Conclua o envio no aplicativo de e-mail. Se ele não abriu, use o endereço de contato ao lado.';
 });
 document.querySelector('#ano').textContent = new Date().getFullYear();
-
-// Tema com persistência opcional e adaptação à preferência do sistema.
 const themeToggle = document.querySelector('#theme-toggle');
 const systemTheme = matchMedia('(prefers-color-scheme: dark)');
 let explicitTheme = false;
@@ -157,16 +147,12 @@ themeToggle.addEventListener('click', () => {
 systemTheme.addEventListener('change', event => {
   if (!explicitTheme) { document.documentElement.dataset.theme = event.matches ? 'dark' : 'light'; updateThemeControl(); }
 });
-
-// Datas locais, sem deslocamento UTC; a escolha não confirma um agendamento.
 const appointment = document.querySelector('#data');
 function updateMinDate() {
   const now = new Date();
   appointment.min = `${now.getFullYear()}-${String(now.getMonth()+1).padStart(2,'0')}-${String(now.getDate()).padStart(2,'0')}`;
 }
 updateMinDate(); appointment.addEventListener('focus', updateMinDate);
-
-// Mantém a entrada original do assistente e sua base local.
 initChatbot({jsonUrl:'minha-base-dados.json'});
 const chatWidget = document.querySelector('#faq-chatbot-widget');
 pageAreas.push(chatWidget);

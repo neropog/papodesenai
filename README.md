@@ -1,3 +1,0 @@
-# Linche TI
-
-
