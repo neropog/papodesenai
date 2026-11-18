@@ -1,586 +1,785 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
- <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <meta content="Linche TI - Soluções completas em TI Estratégica, Cibersegurança e Suporte Corporativo para a sua empresa." name="description"/>
-  <title>
-   Linche TI | TI Estratégica e Segurança Sem Complicação
-  </title>
-  <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9I5J4-bZIeBI-c67Vltx8wkzfW_aA81wIC05PYBFF9g&amp;s=10" rel="icon" type="image/png"/>
-  <link href="style.css" rel="stylesheet"/>
- </head>
- <body>
-  <input aria-label="Ativar modo claro" class="theme-switch" id="theme-switch" type="checkbox"/>
-  <header class="header">
-   <div class="container header-container">
-    <a class="logo" href="#hero">
-     LINCHE
-     <span>
-      TI
-     </span>
-    </a>
-    <nav>
-     <ul class="nav-menu">
-      <li>
-       <a href="#hero">
-        Início
-       </a>
-      </li>
-      <li>
-       <a href="https://www.linche.com.br/">
-        Linche AI
-       </a>
-      </li>
-      <li>
-       <a href="#sobre">
-        Quem Somos
-       </a>
-      </li>
-      <li>
-       <a href="#servicos">
-        Serviços
-       </a>
-      </li>
-      <li>
-       <a href="#galeria">
-        Galeria
-       </a>
-      </li>
-      <li>
-       <a href="#contato">
-        Contato
-       </a>
-      </li>
-      <li>
-       <a href="#assistente" id="abrir-chat-menu">
-        Tire suas dúvidas
-       </a>
-      </li>
-     </ul>
-    </nav>
-    <a class="btn btn-primary" href="#contato">
-     Falar com Especialista
-    </a>
-    <label class="theme-button" for="theme-switch" title="Alternar tema claro e escuro">
-     ☀ Modo claro
-    </label>
-   </div>
-  </header>
-  <main>
-   <section class="hero" id="hero">
-    <div class="container hero-container">
-     <div class="hero-content">
-      <span class="badge">
-       🛡️ Cibersegurança &amp; Infraestrutura
-      </span>
-      <h1>
-       TI Estratégica e Segurança
-       <span>
-        Sem Complicação
-       </span>
-       para sua Empresa
-      </h1>
-      <p>
-       Garantimos a continuidade do seu negócio com suporte corporativo 24/7, monitoramento RMM em tempo real e proteção cibernética avançada.
-      </p>
-      <div class="hero-buttons">
-       <a class="btn btn-primary" href="#contato">
-        Solicitar Diagnóstico Grátis
-       </a>
-       <a class="btn btn-secondary" href="#servicos">
-        Conhecer Soluções
-       </a>
-      </div>
-      <div class="hero-stats">
-       <div class="stat">
-        <strong>
-         +20 Anos
-        </strong>
-        <span>
-         no mercado
-        </span>
-       </div>
-       <div class="stat">
-        <strong>
-         24/7
-        </strong>
-        <span>
-         Monitoramento
-        </span>
-       </div>
-       <div class="stat">
-        <strong>
-         99.9%
-        </strong>
-        <span>
-         SLA Garantido
-        </span>
-       </div>
-      </div>
-     </div>
-     <div class="hero-card">
-      <div class="card-header">
-       <div class="dot red">
-       </div>
-       <div class="dot yellow">
-       </div>
-       <div class="dot green">
-       </div>
-       <span class="card-title">
-        Status do Sistema: Protegido
-       </span>
-      </div>
-      <div class="card-body">
-       <div class="status-item">
-        <span>
-         Servidores Cloud
-        </span>
-        <span class="status-badge active">
-         100% Online
-        </span>
-       </div>
-       <div class="status-item">
-        <span>
-         Firewall &amp; Antivírus
-        </span>
-        <span class="status-badge active">
-         Ativo
-        </span>
-       </div>
-       <div class="status-item">
-        <span>
-         Backup Automatizado
-        </span>
-        <span class="status-badge active">
-         OK (02:00)
-        </span>
-       </div>
-      </div>
-     </div>
-    </div>
-   </section>
-   <section class="sobre" id="sobre">
-    <div class="container sobre-container">
-     <div class="sobre-img">
-      <img alt="Equipe Linchetti TI em ambiente de trabalho" src="https://www.valuehost.com.br/blog/wp-content/uploads/2021/07/suporte-de-ti.jpeg.webp"/>
-     </div>
-     <div class="sobre-content">
-      <span class="subtitle">
-       SOBRE A LINCHE TI
-      </span>
-      <h2>
-       Mais do que Suporte: Seu Departamento de TI Completo
-      </h2>
-      <p>
-       Fundada em 2014, a Linche TI consolidou-se como autoridade em Gestão de TI e Cibersegurança para empresas que não podem parar. Atuamos como um parceiro estratégico, alinhando tecnologia aos objetivos de negócio do seu empreendimento.
-      </p>
-      <p>
-       Nossa missão é eliminar paralisações operacionais e proteger dados críticos contra ameaças virtuais, oferecendo atendimento humanizado, ágil e preventivo.
-      </p>
-      <div class="features-list">
-       <div class="feature-item">
-        <span class="feature-icon">
-         ✔️
-        </span>
-        <div>
-         <strong>
-          Atendimento Proativo
-         </strong>
-         <p>
-          Identificamos e corrigimos falhas antes que afetem sua equipe.
-         </p>
+<head>
+    <!-- Metadados e Configurações Principais -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medeiros Gamer | Jogos Digitais, Consoles e Assinaturas</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300ff66'><path d='M21 6H3c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-10 7H9v2H7v-2H5v-2h2V9h2v2h2v2zm4.5 1c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm3-3c-.83 0-1.5-.67-1.5-1.5S17.67 9 18.5 9s1.5.67 1.5 1.5-.67 1.5-1.5 1.5z'/></svg>">
+    <!-- Fontes Externas (Google Fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+    <!-- Folhas de Estilo -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body id="topo">
+
+    <!-- CABEÇALHO E NAVEGAÇÃO COM SUBMENU -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="logo">
+                <div class="logo-box">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <span class="logo-text">MEDEIROS <span class="neon-text">GAMER</span></span>
+            </a>
+
+            <nav class="nav-links" aria-label="Menu Principal">
+                <ul class="menu-list">
+                    <li><a href="#inicio" class="active">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li class="has-submenu">
+                        <a href="#servicos">Catálogo <i class="fa-solid fa-chevron-down"></i></a>
+                        <!-- Lista Encadeada para Submenu -->
+                        <ul class="submenu">
+                            <li><a href="#servicos">Destaques & Plataformas</a></li>
+                            <li><a href="#lancamentos">Lançamentos & Pré-Vendas</a></li>
+                            <li><a href="#planos">Tabela de Planos</a></li>
+                            <li><a href="#galeria">Galeria HD</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#faq">Dúvidas</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20falar%20com%20o%20atendimento." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i> Fale Conosco
+                </a>
+            </div>
         </div>
-       </div>
-       <div class="feature-item">
-        <span class="feature-icon">
-         🛡️
-        </span>
-        <div>
-         <strong>
-          Conformidade com a LGPD
-         </strong>
-         <p>
-          Processos e ferramentas estruturados para total segurança de dados.
-         </p>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="main-container">
+
+        <!-- SEÇÃO HERO -->
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <div class="badge-pill">
+                    <span class="pulse-dot"></span>
+                    MEDEIROS GAMER • LICENÇAS OFICIAIS & ENTREGA IMEDIATA
+                </div>
+
+                <h1 class="hero-title">
+                    Sua Próxima Aventura Digital <br>
+                    <span class="neon-text">Começa Aqui com Envio Automático</span>
+                </h1>
+
+                <p class="hero-desc">
+                    Mídias digitais para PS4, PS5, Xbox, Nintendo e PC. <em>Procedência garantida</em>, ativação instantânea e o melhor suporte do Brasil.
+                </p>
+
+                <div class="hero-btns">
+                    <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Quero%20fazer%20um%20pedido%20personalizado." target="_blank" rel="noopener" class="btn btn-neon btn-lg">
+                        <i class="fa-brands fa-whatsapp"></i> Encomendar no WhatsApp
+                    </a>
+                    <!-- Link com Atributo Download -->
+                    <a href="data:text/plain;charset=utf-8,CATALOGO%20MEDEIROS%20GAMER%202026%0A-%20GTA%20VI%3A%20R%24%20349%2C90%0A-%20EA%20Sports%20FC%2027%3A%20R%24%20299%2C90%0A-%20Spider-Man%202%3A%20R%24%20249%2C90%0A-%20Elden%20Ring%3A%20R%24%20199%2C90%0A-%20Clube%20Gamefix%3A%20R%24%2084%2C00%2Fm%C3%AAs" download="Catalogo-Medeiros-Gamer-2026.txt" class="btn btn-outline btn-lg">
+                        <i class="fa-solid fa-file-arrow-down"></i> Baixar Catálogo
+                    </a>
+                </div>
+
+                <div class="reputation-bar">
+                    <div class="rep-card">
+                        <i class="fa-solid fa-star"></i>
+                        <div>
+                            <strong>4.9/5 Estrelas</strong>
+                            <small>+10.000 gamers felizes</small>
+                        </div>
+                    </div>
+                    <div class="rep-card">
+                        <i class="fa-solid fa-bolt"></i>
+                        <div>
+                            <strong>Envio Imediato</strong>
+                            <small>Ativação 24/7 via Pix</small>
+                        </div>
+                    </div>
+                    <div class="rep-card">
+                        <i class="fa-solid fa-headset"></i>
+                        <div>
+                            <strong>Atendimento VIP</strong>
+                            <small>Suporte humano 100%</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-featured-card">
+                <div class="featured-header">
+                    <span class="tag-sub">• MEDEIROS GAMER EXCLUSIVO</span>
+                    <h3>Jogo em Destaque</h3>
+                </div>
+                <div class="featured-img-box">
+                    <img src="https://t2.tudocdn.net/536260?w=1920" alt="Destaque Gamer com até 30% de desconto">
+                    <span class="card-price-badge">Até 30% OFF</span>
+                </div>
+                <div class="featured-footer">
+                    <div>
+                        <small>Garantia Vitalícia</small>
+                        <p>Catálogo atualizado diariamente com os maiores lançamentos</p>
+                    </div>
+                    <span class="badge-tag">Oficial</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO SOBRE & MULTIMÍDIA -->
+        <section id="sobre" class="section">
+            <div class="section-header">
+                <span class="section-tag">✨ QUEM SOMOS & NOSSA ESSÊNCIA</span>
+                <h2>Em cada conta, <span class="neon-text">a garantia de uma experiência inesquecível</span></h2>
+            </div>
+
+            <div class="grid-2col">
+                <div class="about-text">
+                    <p>
+                        Fundada em 2014, a <strong>Medeiros Gamer</strong> nasceu com a missão de transformar o acesso aos jogos digitais no Brasil. Trabalhamos exclusivamente com <em>chaves autênticas e mídias 100% originais</em> para todas as plataformas.
+                    </p>
+                    <p>
+                        Priorizamos a transparência, envio automático após a confirmação do pagamento e garantia vitalícia no suporte pós-venda.
+                    </p>
+
+                    <!-- Lista Ordenada (<ol>) - Passo a Passo de Compra -->
+                    <div class="steps-box">
+                        <h4>Como funciona o envio automático:</h4>
+                        <ol class="ordered-steps">
+                            <li>Escolha seu título ou assinatura no catálogo.</li>
+                            <li>Realize o pagamento instantâneo via Pix ou Cartão.</li>
+                            <li>Receba sua chave ou acesso em até 5 minutos no WhatsApp.</li>
+                        </ol>
+                    </div>
+
+                    <div class="about-stats-grid">
+                        <article class="stat-box">
+                            <h3>Desde 2014</h3>
+                            <strong>Tradição & Confiança</strong>
+                            <p>Mais de uma década servindo a comunidade gamer.</p>
+                        </article>
+                        <article class="stat-box">
+                            <h3>100%</h3>
+                            <strong>Garantido</strong>
+                            <p>Licenças oficiais das lojas proprietárias.</p>
+                        </article>
+                        <article class="stat-box">
+                            <h3>Premium</h3>
+                            <strong>Atendimento Humano</strong>
+                            <p>Auxílio no passo a passo de instalação no seu console.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Elemento <video> incorporado -->
+                <div class="about-media-col">
+                    <div class="about-img-frame">
+                        <video controls preload="metadata" poster="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/GTA-6.jpg?w=1200&h=900&crop=0&quality=90">
+                            <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4" type="video/mp4">
+                            Seu navegador não suporta a reprodução de vídeo HTML5.
+                        </video>
+                    </div>
+                    <p class="media-caption"><em>Teaser demonstrativo da experiência em alta definição para consoles de nova geração.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DESTAQUES & LISTAS DE DEFINIÇÃO -->
+        <section id="servicos" class="section">
+            <div class="section-header">
+                <span class="section-tag">SERVIÇOS & PLATAFORMAS</span>
+                <h2>Nossos Destaques <span class="neon-text">(Passe o mouse)</span></h2>
+            </div>
+
+            <div class="grid-3col">
+                <article class="hover-card">
+                    <div class="hover-card-inner">
+                        <div class="hover-card-front">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/a/a5/God_of_War_Ragnar%C3%B6k_capa.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" alt="Jogos digitais para PS4 e PS5">
+                            <div class="hover-front-title">Jogos PS4 & PS5</div>
+                        </div>
+                        <div class="hover-card-back">
+                            <h3>PlayStation 4 & 5</h3>
+                            <p>Títulos digitais primários e secundários com preços promocionais e ativação garantida.</p>
+                            <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Tenho%20interesse%20em%20jogos%20de%20PlayStation." target="_blank" rel="noopener" class="btn btn-neon btn-full">Comprar PS4/PS5</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hover-card">
+                    <div class="hover-card-inner">
+                        <div class="hover-card-front">
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/1/1f/Battlefield_2042_capa.jpg?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" alt="Jogos digitais para Xbox e Nintendo">
+                            <div class="hover-front-title">Xbox & Nintendo</div>
+                        </div>
+                        <div class="hover-card-back">
+                            <h3>Xbox & Switch</h3>
+                            <p>Chaves digitais de 25 dígitos e Gift Cards para Xbox One, Series X|S e Nintendo Switch.</p>
+                            <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Gostaria%20de%20ver%20jogos%20de%20Xbox%20ou%20Switch." target="_blank" rel="noopener" class="btn btn-neon btn-full">Resgatar Chave</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="hover-card">
+                    <div class="hover-card-inner">
+                        <div class="hover-card-front">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRicOPjRc5xR0mLb3vqIMQcXlrVS4GVhAVanH2WBh664_8GOejL6NE17yw&s=10" alt="Assinatura mensal Clube Gamefix">
+                            <div class="hover-front-title">Assinatura Gamefix</div>
+                        </div>
+                        <div class="hover-card-back">
+                            <h3>Clube Gamefix</h3>
+                            <p>Acesso mensal ilimitado a uma biblioteca completa de jogos por apenas R$ 84,00/mês.</p>
+                            <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20a%20Assinatura%20Gamefix." target="_blank" rel="noopener" class="btn btn-neon btn-full">Assinar Clube</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Lista de Definição (<dl>) -->
+            <div class="definition-box">
+                <h3>Entenda nossos formatos de mídia digital</h3>
+                <dl class="media-dl">
+                    <dt>Mídia Primária (PS4 / PS5)</dt>
+                    <dd>Você baixa o jogo pela conta fornecida e joga diretamente no seu perfil pessoal, conquistando troféus normalmente.</dd>
+
+                    <dt>Mídia Secundária (PS4 / PS5)</dt>
+                    <dd>Opção mais econômica onde o acesso e a jogatina ocorrem diretamente no perfil enviado pela loja, com conexão à internet.</dd>
+
+                    <dt>Chave Digital 25 Dígitos (Xbox / PC / Switch)</dt>
+                    <dd>Código resgatável permanente vinculado diretamente à sua própria conta oficial da Microsoft, Steam ou Nintendo.</dd>
+                </dl>
+            </div>
+        </section>
+
+        <!-- SEÇÃO TABELA ESTRUTURADA -->
+        <section id="planos" class="section">
+            <div class="section-header">
+                <span class="section-tag">COMPARATIVO DE VANTAGENS</span>
+                <h2>Tabela de Modalidades & <span class="neon-text">Garantias</span></h2>
+                <p class="section-subtitle">Compare prazos, suporte e benefícios de cada modalidade da loja.</p>
+            </div>
+
+            <div class="table-wrapper" id="tabela-planos">
+                <table class="gamer-table">
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Modalidade</th>
+                            <th rowspan="2">Plataformas</th>
+                            <th colspan="2">Condições de Entrega</th>
+                            <th rowspan="2">Investimento Médio</th>
+                        </tr>
+                        <tr>
+                            <th>Prazo via Pix</th>
+                            <th>Garantia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Mídia Digital Primária</strong></td>
+                            <td>PS4 e PS5</td>
+                            <td>Até 5 minutos</td>
+                            <td>Vitalícia</td>
+                            <td>A partir de R$ 79,90</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Chave Oficial 25 Dígitos</strong></td>
+                            <td>Xbox Series / PC / Switch</td>
+                            <td>Imediato (Automático)</td>
+                            <td>Vitalícia na Conta</td>
+                            <td>A partir de R$ 99,90</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Clube Gamefix</strong></td>
+                            <td>PS4, PS5 e Xbox</td>
+                            <td>Até 10 minutos</td>
+                            <td>Enquanto ativo</td>
+                            <td>R$ 84,00 / mês</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- SEÇÃO LANÇAMENTOS -->
+        <section id="lancamentos" class="section">
+            <div class="section-header">
+                <span class="section-tag">CATÁLOGO EXCLUSIVO</span>
+                <h2>Lançamentos & Pré-Vendas</h2>
+                <p class="section-subtitle">Passe o mouse no card para girar e ver as informações de compra.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <article class="card-container card-purple">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-price-badge">R$ 349,90</span>
+                            <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/05/GTA-6.jpg?w=1200&h=900&crop=0&quality=90" alt="Capa do jogo Grand Theft Auto VI">
+                            <div class="card-front-title">GTA VI</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Grand Theft Auto VI</h3>
+                            <p>Explore Vice City com gráficos incríveis de última geração. Garanta sua reserva antecipada.</p>
+                            <a href="https://wa.me/19994152532?text=Quero%20reservar%20GTA%20VI" target="_blank" rel="noopener" class="btn-flip">Comprar Agora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-container">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-price-badge">R$ 299,90</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/zh/6/6f/EA_Sports_FC_27.jpg" alt="Capa do jogo EA Sports FC 27">
+                            <div class="card-front-title">EA FC 27</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>EA Sports FC 27</h3>
+                            <p>O melhor do futebol digital com licenças oficiais, gráficos ultra-realistas e Ultimate Team.</p>
+                            <a href="https://wa.me/19994152532?text=Quero%20comprar%20EAFC27" target="_blank" rel="noopener" class="btn-flip">Comprar Agora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-container card-red">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-price-badge">R$ 249,90</span>
+                            <img src="https://s2-techtudo.glbimg.com/WSv-EEybzB088XCoDngOQa93kE8=/0x0:3840x2160/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/K/6/aBVr6PSHSdlAAF5LA3uA/marvels-spider-man-2-20231006223458.jpg" alt="Capa do jogo Marvel's Spider-Man 2">
+                            <div class="card-front-title">Spider-Man 2</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Spider-Man 2</h3>
+                            <p>Jogue como Peter Parker e Miles Morales enfrentando o vilão Venom em Nova York.</p>
+                            <a href="https://wa.me/19994152532?text=Quero%20comprar%20Spider-Man%202" target="_blank" rel="noopener" class="btn-flip">Comprar Agora</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card-container card-yellow">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <span class="card-price-badge">R$ 199,90</span>
+                            <img src="https://upload.wikimedia.org/wikipedia/pt/0/0d/Elden_Ring_capa.jpg" alt="Capa do jogo Elden Ring">
+                            <div class="card-front-title">Elden Ring</div>
+                        </div>
+                        <div class="card-back">
+                            <h3>Elden Ring</h3>
+                            <p>Explore as Terras Intermédias neste RPG de ação aclamado pela crítica e vencedor de prêmios.</p>
+                            <a href="https://wa.me/19994152532?text=Quero%20comprar%20Elden%20Ring" target="_blank" rel="noopener" class="btn-flip">Comprar Agora</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- SEÇÃO GALERIA & LIGHTBOX -->
+        <section id="galeria" class="section">
+            <div class="section-header">
+                <span class="section-tag">GALERIA DE JOGOS</span>
+                <h2>Nossa Galeria em Alta Definição</h2>
+                <p class="section-subtitle">Clique em uma imagem para ampliá-la na tela.</p>
+            </div>
+
+            <div class="gallery">
+                <a href="#img1" class="gallery-item">
+                    <span class="card-price-badge">R$ 109,90</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Cuphead_capa.png" alt="Capa do jogo Cuphead">
+                    <h3>CUPHEAD</h3>
+                </a>
+                <a href="#img2" class="gallery-item">
+                    <span class="card-price-badge">R$ 149,90</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/b/be/The_Last_of_Us_capa.png" alt="Capa de The Last of Us Parte 1">
+                    <h3>TLOU 1</h3>
+                </a>
+                <a href="#img3" class="gallery-item">
+                    <span class="card-price-badge">R$ 249,90</span>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/9/96/The_Last_of_Us_2_capa.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" alt="Capa de The Last of Us Parte 2">
+                    <h3>TLOU 2</h3>
+                </a>
+                <a href="#img4" class="gallery-item">
+                    <span class="card-price-badge">R$ 79,90</span>
+                    <img src="https://static.wikia.nocookie.net/arkhamcity/images/5/57/Batman_Arkham_Knight.jpg/revision/latest?cb=20160922181423&path-prefix=pt-br" alt="Capa de Batman Arkham Knight">
+                    <h3>BATMAN KNIGHT</h3>
+                </a>
+            </div>
+
+            <div class="lightbox" id="img1">
+                <a href="#galeria" class="lightbox-overlay" aria-label="Fechar imagem"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/c/c1/Cuphead_capa.png" alt="Cuphead Ampliado">
+                </div>
+            </div>
+
+            <div class="lightbox" id="img2">
+                <a href="#galeria" class="lightbox-overlay" aria-label="Fechar imagem"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/b/be/The_Last_of_Us_capa.png" alt="TLOU 1 Ampliado">
+                </div>
+            </div>
+
+            <div class="lightbox" id="img3">
+                <a href="#galeria" class="lightbox-overlay" aria-label="Fechar imagem"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="https://upload.wikimedia.org/wikipedia/pt/9/96/The_Last_of_Us_2_capa.png?utm_source=pt.wikipedia.org&utm_campaign=index&utm_content=original" alt="TLOU 2 Ampliado">
+                </div>
+            </div>
+
+            <div class="lightbox" id="img4">
+                <a href="#galeria" class="lightbox-overlay" aria-label="Fechar imagem"></a>
+                <div class="lightbox-content">
+                    <a href="#galeria" class="close-btn">&times;</a>
+                    <img src="https://static.wikia.nocookie.net/arkhamcity/images/5/57/Batman_Arkham_Knight.jpg/revision/latest?cb=20160922181423&path-prefix=pt-br" alt="Batman Knight Ampliado">
+                </div>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DEPOIMENTOS -->
+        <section class="section">
+            <div class="section-header">
+                <span class="section-tag">AVALIAÇÕES REAIS</span>
+                <h2>O que dizem os <span class="neon-text">Nossos Gamers</span></h2>
+                <p class="section-subtitle">Depoimentos de quem confia na Medeiros Gamer</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Atendimento incrível! Fiz o Pix do GTA VI e o código de ativação chegou em menos de 2 minutos no meu WhatsApp. Suporte super atencioso!"</p>
+                    <strong>— Lucas R. (São Paulo/SP)</strong>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Já sou cliente do clube Gamefix há mais de 1 ano. Preço justo, biblioteca gigante de jogos e zero dor de cabeça. Recomendo de olhos fechados!"</p>
+                    <strong>— Matheus A. (Campinas/SP)</strong>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                    <p>"Comprei o Spider-Man 2 para o PS5 e me ajudaram no passo a passo para configurar tudo bem rápido. Excelente pós-venda!"</p>
+                    <strong>— Gabriel F. (Curitiba/PR)</strong>
+                </article>
+            </div>
+        </section>
+
+        <!-- SEÇÃO DÚVIDAS FREQUENTES -->
+        <section id="faq" class="section">
+            <div class="section-header">
+                <span class="section-tag">TIRE SUAS DÚVIDAS</span>
+                <h2>Dúvidas <span class="neon-text">Frequentes</span></h2>
+                <p class="section-subtitle">Tudo o que você precisa saber antes de comprar seu jogo</p>
+            </div>
+
+            <div class="faq-container">
+                <details>
+                    <summary>
+                        <span>Qual é o prazo de entrega após o pagamento?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-content">
+                        <p>O envio é 100% automático via Pix! Após a confirmação, você recebe os dados da sua licença diretamente no e-mail e WhatsApp em menos de 5 minutos.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span>Os jogos são originais e possuem garantia?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Sim! Todos os nossos produtos são licenças oficiais compradas diretamente nas lojas proprietárias (PlayStation Store, Xbox Live, Nintendo eShop, Steam). Oferecemos garantia vitalícia.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span>Quais são as formas de pagamento aceitas?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Aceitamos Pix com envio automático e desconto especial, além de cartão de crédito em até 12x via Mercado Pago e PicPay.</p>
+                    </div>
+                </details>
+
+                <details>
+                    <summary>
+                        <span>Como funciona o suporte pós-venda?</span>
+                        <i class="fa-solid fa-plus"></i>
+                    </summary>
+                    <div class="faq-content">
+                        <p>Nossa equipe técnica fica disponível de segunda a domingo pelo WhatsApp para te orientar em qualquer etapa da instalação e configuração no seu console.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- SEÇÃO FORMULÁRIO DE ATENDIMENTO E PEDIDOS -->
+        <section id="contato" class="section">
+            <div class="section-header">
+                <span class="section-tag">CENTRAL DE ATENDIMENTO</span>
+                <h2>Atendimento & Pedidos Personalizados</h2>
+                <p class="section-subtitle">Preencha os dados para receber o orçamento do seu jogo imediatamente.</p>
+            </div>
+
+            <div class="form-container">
+                <form action="#" method="post" enctype="multipart/form-data" onsubmit="event.preventDefault(); alert('Pedido enviado com sucesso para a Medeiros Gamer!');">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" minlength="3" maxlength="80" placeholder="Ex: Lucas Ferreira Silva" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail para o recebimento da chave *</label>
+                            <input type="email" id="email" name="email" maxlength="100" placeholder="ex: seu@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefone">WhatsApp com DDD * (Formato: (19) 99999-9999)</label>
+                            <input type="tel" id="telefone" name="telefone" pattern="\(\d{2}\)\s?\d{4,5}-\d{4}" placeholder="(19) 99415-2532" title="Digite no formato (19) 99415-2532" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="plataforma">Plataforma (Console / Dispositivo) *</label>
+                            <select id="plataforma" name="plataforma" required>
+                                <option value="" disabled selected>Selecione a plataforma...</option>
+                                <option value="ps4">PlayStation 4 (PS4)</option>
+                                <option value="ps5">PlayStation 5 (PS5)</option>
+                                <option value="xbox">Xbox One / Series X|S</option>
+                                <option value="switch">Nintendo Switch</option>
+                                <option value="pc">PC (Steam/Epic)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="data">Data desejada para o envio *</label>
+                            <input type="date" id="data" name="data" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="comprovante">Anexar print do jogo ou comprovante (Opcional)</label>
+                            <input type="file" id="comprovante" name="comprovante" accept="image/*,.pdf">
+                        </div>
+                    </div>
+
+                    <!-- Escolha Única (Radio) -->
+                    <div class="form-group">
+                        <label>Preferência de Licença *</label>
+                        <div class="choice-group">
+                            <label class="choice-label"><input type="radio" name="tipo_licenca" value="primaria" checked required> Mídia Primária / Chave Oficial</label>
+                            <label class="choice-label"><input type="radio" name="tipo_licenca" value="secundaria"> Mídia Secundária</label>
+                            <label class="choice-label"><input type="radio" name="tipo_licenca" value="gamefix"> Clube Gamefix (Mensal)</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Nome do jogo ou mensagem adicional</label>
+                        <textarea id="mensagem" name="mensagem" rows="3" maxlength="500" placeholder="Digite o nome do jogo que procura, dúvidas ou informações adicionais..."></textarea>
+                    </div>
+
+                    <!-- Escolha Múltipla (Checkbox) -->
+                    <div class="form-group">
+                        <div class="choice-group vertical">
+                            <label class="choice-label"><input type="checkbox" name="aceite_termos" value="sim" required> Concordo com os termos de garantia vitalícia e entrega digital *</label>
+                            <label class="choice-label"><input type="checkbox" name="receber_promocoes" value="sim"> Quero receber cupons e alertas de pré-venda no WhatsApp</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-neon btn-full btn-lg">
+                        <i class="fa-solid fa-paper-plane"></i> Enviar Mensagem ou Pedir Jogo
+                    </button>
+
+                    <p class="form-footer-note">
+                        <i class="fa-solid fa-shield-halved"></i> Garantimos 100% a privacidade dos seus dados. Resposta em poucos minutos.
+                    </p>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="#inicio" class="logo">
+                    <div class="logo-box sm">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+                    <span class="logo-text">MEDEIROS <span class="neon-text">GAMER</span></span>
+                </a>
+                <p>Referência em jogos digitais com envios automáticos e suporte garantido desde 2014. Diversão autêntica ao melhor preço do país.</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#servicos">Destaques</a></li>
+                    <li><a href="#planos">Tabela de Planos</a></li>
+                    <li><a href="#lancamentos">Lançamentos</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Atendimento</h4>
+                <p>Envios automáticos 24h para todo o Brasil</p>
+                <p>⏰ Seg a Dom: 08h às 23h (Suporte)</p>
+                <p>💬 (19) 99415-2532</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                    <a href="https://wa.me/19994152532" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                </div>
+            </div>
         </div>
-       </div>
-      </div>
-     </div>
+
+        <div class="footer-bottom">
+            © 2026 Medeiros Gamer. Todos os direitos reservados. Feito para gamers exigentes.
+        </div>
+    </footer>
+
+    <!-- ASSISTENTE IA GAMER (CANTO INFERIOR DIREITO) -->
+    <div class="ai-bot-wrapper">
+        <div class="ai-chat-window" id="aiChatWindow">
+            <div class="ai-chat-header">
+                <div class="ai-bot-info">
+                    <div class="ai-avatar">
+                        <i class="fa-solid fa-robot"></i>
+                    </div>
+                    <div>
+                        <h4>Medeiros AI</h4>
+                        <span class="ai-status"><span class="pulse-dot"></span> Online • Suporte Gamer</span>
+                    </div>
+                </div>
+                <button class="ai-close-btn" id="aiCloseBtn" title="Fechar chat" type="button">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="ai-chat-messages" id="aiChatMessages">
+                <div class="ai-msg bot">
+                    Fala, gamer! 🎮 Sou a <strong>IA da Medeiros Gamer</strong>. Como posso te ajudar hoje?
+                </div>
+                <div class="ai-quick-replies" id="aiQuickReplies">
+                    <button type="button" onclick="sendQuickReply('Como funciona o envio?')">⚡ Prazo de envio</button>
+                    <button type="button" onclick="sendQuickReply('Quais são as formas de pagamento?')">💳 Pagamento</button>
+                    <button type="button" onclick="sendQuickReply('O que é o Clube Gamefix?')">🕹️ Clube Gamefix</button>
+                    <button type="button" onclick="sendQuickReply('Os jogos são originais?')">🛡️ Garantia</button>
+                </div>
+            </div>
+
+            <form class="ai-chat-input" id="aiChatForm">
+                <input type="text" id="aiUserInput" placeholder="Digite sua dúvida gamer..." autocomplete="off" required>
+                <button type="submit" title="Enviar">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+
+        <button class="ai-bot-trigger" id="aiBotTrigger" title="Tirar dúvidas com a IA" type="button">
+            <i class="fa-solid fa-robot"></i>
+            <span class="ai-badge">IA</span>
+        </button>
     </div>
-   </section>
-   <section class="servicos" id="servicos">
-    <div class="container">
-     <div class="section-title">
-      <span class="subtitle">
-       NOSSAS SOLUÇÕES
-      </span>
-      <h2>
-       Serviços Gerenciados para Elevar sua TI
-      </h2>
-     </div>
-     <div class="cards-grid">
-      <article class="card-servico">
-       <img alt="Data Center e Servidores" loading="lazy" src="https://ctcinfra.com.br/wp-content/uploads/2025/02/Design-sem-nome-8-1024x576.jpg"/>
-       <div class="servico-info">
-        <h3>
-         Gestão de TI &amp; Suporte
-        </h3>
-        <p>
-         Atendimento N1 a N3 para sua equipe com NOC 24/7. Resolução rápida e gestão contínua de infraestrutura.
-        </p>
-        <a class="btn btn-primary" href="#contato">
-         Falar com especialista
-        </a>
-       </div>
-      </article>
-      <article class="card-servico">
-       <img alt="Monitoramento de Segurança" loading="lazy" src="https://it4us.com.br/wp-content/uploads/2026/01/3.jpeg"/>
-       <div class="servico-info">
-        <h3>
-         Segurança &amp; Firewall
-        </h3>
-        <p>
-         Proteção avançada contra ameaças, gestão de acesso, VPN corporativa e prevenção de vazamento de dados.
-        </p>
-        <a class="btn btn-primary" href="#contato">
-         Falar com especialista
-        </a>
-       </div>
-      </article>
-      <article class="card-servico">
-       <img alt="Equipe de Desenvolvimento e Suporte" loading="lazy" src="https://gsssolucoes.com.br/wp-content/uploads/2026/06/Suporte-Equipe-GSS.webp"/>
-       <div class="servico-info">
-        <h3>
-         Cloud &amp; Servidores
-        </h3>
-        <p>
-         Migração e gerenciamento de servidores em nuvem, garantindo alta disponibilidade e escalabilidade.
-        </p>
-        <a class="btn btn-primary" href="#contato">
-         Falar com especialista
-        </a>
-       </div>
-      </article>
-      <article class="card-servico">
-       <img alt="Conectividade Global e Nuvem" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2fcqoMH8D32Zv1172qRcv4xd1HjUFmsuGkJnW95GfZkAolf_oDBGOhBE3&amp;s=10"/>
-       <div class="servico-info">
-        <h3>
-         Backup &amp; Recovery
-        </h3>
-        <p>
-         Rotinas automatizadas de backup em nuvem com planos rigorosos de recuperação de desastres (DRP).
-        </p>
-        <a class="btn btn-primary" href="#contato">
-         Falar com especialista
-        </a>
-       </div>
-      </article>
-     </div>
-    </div>
-   </section>
-   <section class="galeria" id="galeria">
-    <div class="container">
-     <div class="section-title">
-      <span class="subtitle">
-       NOSSA ESTRUTURA
-      </span>
-      <h2>
-       Conheça Nossas Operações
-      </h2>
-     </div>
-     <div class="galeria-grid">
-      <figure class="galeria-item">
-       <a aria-label="Ampliar: Data Center e Servidores" class="gallery-link" href="#foto-1">
-        <img alt="Data Center e Servidores" loading="lazy" src="https://ctcinfra.com.br/wp-content/uploads/2025/02/Design-sem-nome-8-1024x576.jpg"/>
-        <figcaption>
-         Infraestrutura de Data Center de Alta Performance
-        </figcaption>
-       </a>
-      </figure>
-      <figure class="galeria-item">
-       <a aria-label="Ampliar: Monitoramento de Segurança" class="gallery-link" href="#foto-2">
-        <img alt="Monitoramento de Segurança" loading="lazy" src="https://it4us.com.br/wp-content/uploads/2026/01/3.jpeg"/>
-        <figcaption>
-         Central de Monitoramento e Cibersegurança 24/7
-        </figcaption>
-       </a>
-      </figure>
-      <figure class="galeria-item">
-       <a aria-label="Ampliar: Equipe de Desenvolvimento e Suporte" class="gallery-link" href="#foto-3">
-        <img alt="Equipe de Desenvolvimento e Suporte" loading="lazy" src="https://gsssolucoes.com.br/wp-content/uploads/2026/06/Suporte-Equipe-GSS.webp"/>
-        <figcaption>
-         Equipe Especializada em Atendimento Técnico
-        </figcaption>
-       </a>
-      </figure>
-      <figure class="galeria-item">
-       <a aria-label="Ampliar: Conectividade Global e Nuvem" class="gallery-link" href="#foto-4">
-        <img alt="Conectividade Global e Nuvem" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2fcqoMH8D32Zv1172qRcv4xd1HjUFmsuGkJnW95GfZkAolf_oDBGOhBE3&amp;s=10"/>
-        <figcaption>
-         Soluções de Conectividade e Cloud Computing
-        </figcaption>
-       </a>
-      </figure>
-     </div>
-    </div>
-   </section>
-   <section class="contato" id="contato">
-    <div class="container contato-container">
-     <div class="contato-info">
-      <span class="subtitle">
-       CONTATO DIRETO
-      </span>
-      <h2>
-       Fale com Nossos Especialistas
-      </h2>
-      <p>
-       Agende uma conversa técnica sem compromisso e receba um diagnóstico da infraestrutura da sua empresa.
-      </p>
-      <div class="info-box">
-       <p>
-        📍
-        <strong>
-         Endereço:
-        </strong>
-        Rua Jacareí, 28 - Campinas/SP
-       </p>
-       <p>
-        📞
-        <strong>
-         Telefone:
-        </strong>
-        (19) 3241-3200
-       </p>
-       <p>
-        ✉️
-        <strong>
-         E-mail:
-        </strong>
-        contato@lincheti.com.br
-       </p>
-      </div>
-     </div>
-     <div class="contato-form">
-      <form action="mailto:contato@lincheti.com.br" enctype="text/plain" method="post">
-       <div class="form-group">
-        <label for="nome">
-         Nome Completo *
-        </label>
-        <input id="nome" name="nome" placeholder="Ex.: Carlos Silva" required="" type="text"/>
-       </div>
-       <div class="form-group">
-        <label for="email">
-         E-mail Corporativo *
-        </label>
-        <input id="email" name="email" placeholder="carlos@suaempresa.com.br" required="" type="email"/>
-       </div>
-       <div class="form-group">
-        <label for="data">
-         Data Preferencial para Agendamento *
-        </label>
-        <input id="data" name="data" required="" type="date"/>
-       </div>
-       <div class="form-group">
-        <label for="mensagem">
-         Mensagem / Necessidade
-        </label>
-        <textarea id="mensagem" name="mensagem" placeholder="Descreva sucintamente suas necessidades de TI..." rows="4"></textarea>
-       </div>
-       <button class="btn btn-primary btn-block" type="submit">
-        Preparar e-mail de agendamento
-       </button>
-       <p class="form-note">
-        Ao clicar, seu aplicativo de e-mail será aberto para concluir o envio.
-       </p>
-      </form>
-     </div>
-    </div>
-   </section>
-  </main>
-  <footer class="footer">
-   <div class="container footer-container">
-    <div class="footer-col">
-     <a class="logo" href="#hero">
-      LINCHE
-      <span>
-       TI
-      </span>
-     </a>
-     <p>
-      Garantindo alta performance, segurança e estabilidade para a infraestrutura de TI da sua empresa.
-     </p>
-    </div>
-    <div class="footer-col">
-     <h4>
-      Navegação
-     </h4>
-     <ul>
-      <li>
-       <a href="#hero">
-        Início
-       </a>
-      </li>
-      <li>
-       <a href="#sobre">
-        Quem Somos
-       </a>
-      </li>
-      <li>
-       <a href="#servicos">
-        Serviços
-       </a>
-      </li>
-      <li>
-       <a href="#galeria">
-        Galeria
-       </a>
-      </li>
-     </ul>
-    </div>
-    <div class="footer-col">
-     <h4>
-      Redes &amp; Links
-     </h4>
-     <ul>
-      <li>
-       <a href="https://www.instagram.com/linche.ti" rel="noopener noreferrer" target="_blank">
-        Instagram Oficial ↗
-       </a>
-      </li>
-      <li>
-       <a href="https://api.whatsapp.com/send/?phone=551932413200&amp;text&amp;type=phone_number&amp;app_absent=0" rel="noopener noreferrer" target="_blank">
-        WhatsApp Atendimento ↗
-       </a>
-      </li>
-      <li>
-       <a href="https://maps.google.com/?cid=10164631095737563468&amp;g_mp=CiVnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLkdldFBsYWNlEAMYASAFKgSoqNcy" rel="noopener noreferrer" target="_blank">
-        Localização no Google Maps ↗
-       </a>
-      </li>
-     </ul>
-    </div>
-   </div>
-   <div class="footer-bottom">
-    <div class="container">
-     <p>
-      © 2026 Linche TI. Todos os direitos reservados. Projeto Redesign.
-     </p>
-    </div>
-   </div>
-  </footer>
-  <input aria-label="Ocultar aviso de cookies" class="cookies-ok" id="cookies-ok" type="checkbox"/>
-  <div class="banner-cookies" id="banner-cookies">
-   <p>
-    Utilizamos cookies para personalizar sua experiência. Ao continuar navegando, você concorda com a nossa política.
-   </p>
-   <label class="btn-cookies" for="cookies-ok">
-    Entendi e Aceito
-   </label>
-  </div>
-  <div aria-labelledby="legenda-foto-1" class="lightbox" id="foto-1" role="dialog" tabindex="-1">
-   <a aria-label="Fechar imagem ampliada" class="lightbox-overlay" href="#galeria" tabindex="-1">
-   </a>
-   <figure class="lightbox-content">
-    <a aria-label="Fechar imagem ampliada" class="close-btn" href="#galeria">
-     ×
+
+    <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noopener" class="whatsapp-float" title="Fale conosco no WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
     </a>
-    <img alt="Data Center e Servidores" loading="lazy" src="https://ctcinfra.com.br/wp-content/uploads/2025/02/Design-sem-nome-8-1024x576.jpg"/>
-    <figcaption id="legenda-foto-1">
-     Infraestrutura de Data Center de Alta Performance
-    </figcaption>
-   </figure>
-  </div>
-  <div aria-labelledby="legenda-foto-2" class="lightbox" id="foto-2" role="dialog" tabindex="-1">
-   <a aria-label="Fechar imagem ampliada" class="lightbox-overlay" href="#galeria" tabindex="-1">
-   </a>
-   <figure class="lightbox-content">
-    <a aria-label="Fechar imagem ampliada" class="close-btn" href="#galeria">
-     ×
-    </a>
-    <img alt="Monitoramento de Segurança" loading="lazy" src="https://it4us.com.br/wp-content/uploads/2026/01/3.jpeg"/>
-    <figcaption id="legenda-foto-2">
-     Central de Monitoramento e Cibersegurança 24/7
-    </figcaption>
-   </figure>
-  </div>
-  <div aria-labelledby="legenda-foto-3" class="lightbox" id="foto-3" role="dialog" tabindex="-1">
-   <a aria-label="Fechar imagem ampliada" class="lightbox-overlay" href="#galeria" tabindex="-1">
-   </a>
-   <figure class="lightbox-content">
-    <a aria-label="Fechar imagem ampliada" class="close-btn" href="#galeria">
-     ×
-    </a>
-    <img alt="Equipe de Desenvolvimento e Suporte" loading="lazy" src="https://gsssolucoes.com.br/wp-content/uploads/2026/06/Suporte-Equipe-GSS.webp"/>
-    <figcaption id="legenda-foto-3">
-     Equipe Especializada em Atendimento Técnico
-    </figcaption>
-   </figure>
-  </div>
-  <div aria-labelledby="legenda-foto-4" class="lightbox" id="foto-4" role="dialog" tabindex="-1">
-   <a aria-label="Fechar imagem ampliada" class="lightbox-overlay" href="#galeria" tabindex="-1">
-   </a>
-   <figure class="lightbox-content">
-    <a aria-label="Fechar imagem ampliada" class="close-btn" href="#galeria">
-     ×
-    </a>
-    <img alt="Conectividade Global e Nuvem" loading="lazy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2fcqoMH8D32Zv1172qRcv4xd1HjUFmsuGkJnW95GfZkAolf_oDBGOhBE3&amp;s=10"/>
-    <figcaption id="legenda-foto-4">
-     Soluções de Conectividade e Cloud Computing
-    </figcaption>
-   </figure>
-  </div>
-  <script>
-   (function () {
-  var ativo = null;
-  var focoAnterior = null;
-  function fecharGaleria() {
-    if (!ativo) return;
-    ativo.classList.remove('is-open');
-    ativo.setAttribute('aria-hidden', 'true');
-    document.body.classList.remove('galeria-aberta');
-    ativo = null;
-    if (focoAnterior) focoAnterior.focus();
-  }
-  document.querySelectorAll('.lightbox').forEach(function (modal) {
-    modal.setAttribute('aria-hidden', 'true');
-  });
-  document.querySelectorAll('.gallery-link').forEach(function (link) {
-    link.addEventListener('click', function (event) {
-      var destino = document.getElementById(link.getAttribute('href').slice(1));
-      if (!destino) return;
-      event.preventDefault();
-      fecharGaleria();
-      focoAnterior = link;
-      ativo = destino;
-      ativo.classList.add('is-open');
-      ativo.setAttribute('aria-hidden', 'false');
-      document.body.classList.add('galeria-aberta');
-      ativo.querySelector('.close-btn').focus();
-    });
-  });
-  document.querySelectorAll('.lightbox-overlay, .lightbox .close-btn').forEach(function (link) {
-    link.addEventListener('click', function (event) {
-      event.preventDefault();
-      fecharGaleria();
-    });
-  });
-  document.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape') fecharGaleria();
-  });
-})();
-  </script>
-  <script src="chatbot.js">
-  </script>
-  <script>
-   initChatbot({ jsonUrl: 'minha-base-dados.json' });
-  document.getElementById('abrir-chat-menu').addEventListener('click', function(evento) {
-    evento.preventDefault();
-    var botao = document.getElementById('faq-toggle-btn');
-    var janela = document.getElementById('faq-chat-window');
-    if (botao && janela && janela.classList.contains('faq-hidden')) botao.click();
-    document.getElementById('faq-input').focus();
-  });
-  </script>
- </body>
+
+    <!-- SCRIPT DO ASSISTENTE IA -->
+    <script>
+        const aiBotTrigger = document.getElementById('aiBotTrigger');
+        const aiChatWindow = document.getElementById('aiChatWindow');
+        const aiCloseBtn = document.getElementById('aiCloseBtn');
+        const aiChatForm = document.getElementById('aiChatForm');
+        const aiUserInput = document.getElementById('aiUserInput');
+        const aiChatMessages = document.getElementById('aiChatMessages');
+
+        aiBotTrigger.addEventListener('click', () => {
+            aiChatWindow.classList.toggle('open');
+            if (aiChatWindow.classList.contains('open')) {
+                aiUserInput.focus();
+            }
+        });
+
+        aiCloseBtn.addEventListener('click', () => {
+            aiChatWindow.classList.remove('open');
+        });
+
+        function addMessage(text, sender) {
+            const msgDiv = document.createElement('div');
+            msgDiv.classList.add('ai-msg', sender);
+            msgDiv.innerHTML = text;
+            aiChatMessages.appendChild(msgDiv);
+            aiChatMessages.scrollTop = aiChatMessages.scrollHeight;
+        }
+
+        function getBotResponse(input) {
+            const text = input.toLowerCase();
+
+            if (text.includes('envio') || text.includes('prazo') || text.includes('entrega') || text.includes('demora') || text.includes('chega')) {
+                return '⚡ Nosso envio é <strong>100% automático via Pix</strong>! Assim que o pagamento é confirmado, você recebe sua chave ou acesso no WhatsApp e e-mail em menos de <strong>5 minutos</strong>.';
+            }
+            if (text.includes('pagamento') || text.includes('pix') || text.includes('cartão') || text.includes('cartao') || text.includes('parcela')) {
+                return '💳 Aceitamos <strong>Pix</strong> (com envio imediato e desconto) e <strong>Cartão de Crédito em até 12x</strong> via Mercado Pago e PicPay.';
+            }
+            if (text.includes('gamefix') || text.includes('assinatura') || text.includes('clube')) {
+                return '🕹️ O <strong>Clube Gamefix</strong> dá acesso mensal ilimitado a uma biblioteca gigante de jogos por apenas <strong>R$ 84,00/mês</strong>! Quer assinar? <a href="https://wa.me/19994152532?text=Quero%20assinar%20o%20Clube%20Gamefix" target="_blank" rel="noopener" class="neon-text">Clique aqui</a>.';
+            }
+            if (text.includes('original') || text.includes('garantia') || text.includes('confiável') || text.includes('confiavel') || text.includes('ban')) {
+                return '🛡️ Sim! Trabalhamos desde 2014 apenas com <strong>licenças 100% originais</strong> adquiridas nas lojas oficiais (PSN, Xbox, Nintendo e Steam) com <strong>garantia vitalícia</strong>.';
+            }
+            if (text.includes('gta') || text.includes('fc 27') || text.includes('spider') || text.includes('elden') || text.includes('preço') || text.includes('valor')) {
+                return '🔥 Temos ofertas imperdíveis no catálogo! GTA VI (R$ 349,90), EA FC 27 (R$ 299,90), Spider-Man 2 (R$ 249,90) e Elden Ring (R$ 199,90). Procura algum título específico?';
+            }
+            if (text.includes('ps4') || text.includes('ps5') || text.includes('xbox') || text.includes('nintendo') || text.includes('pc')) {
+                return '🎮 Temos catálogo completo para <strong>PS4, PS5, Xbox One/Series, Nintendo Switch e PC</strong>. Te ajudamos no passo a passo da ativação!';
+            }
+            if (text.includes('oi') || text.includes('olá') || text.includes('ola') || text.includes('bom dia') || text.includes('boa tarde') || text.includes('boa noite')) {
+                return 'E aí, tudo certo? 🚀 Me pergunte sobre <strong>jogos, preços, prazos de envio, formas de pagamento</strong> ou sobre o <strong>Clube Gamefix</strong>!';
+            }
+
+            return 'Boa pergunta! Para te passar o orçamento exato ou atendimento personalizado agora mesmo, chama nossa equipe no WhatsApp: <a href="https://wa.me/19994152532?text=Ol%C3%A1!%20Vim%20pelo%20chat%20IA%20do%20site." target="_blank" rel="noopener" class="neon-text"><strong>Iniciar conversa no WhatsApp ↗</strong></a>';
+        }
+
+        function processMessage(text) {
+            if (!text.trim()) return;
+            addMessage(text, 'user');
+
+            const typingDiv = document.createElement('div');
+            typingDiv.classList.add('ai-msg', 'bot', 'typing');
+            typingDiv.innerHTML = '<span>.</span><span>.</span><span>.</span>';
+            aiChatMessages.appendChild(typingDiv);
+            aiChatMessages.scrollTop = aiChatMessages.scrollHeight;
+
+            setTimeout(() => {
+                typingDiv.remove();
+                const reply = getBotResponse(text);
+                addMessage(reply, 'bot');
+            }, 500);
+        }
+
+        aiChatForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            const text = aiUserInput.value;
+            aiUserInput.value = '';
+            processMessage(text);
+        });
+
+        function sendQuickReply(text) {
+            processMessage(text);
+        }
+    </script>
+
+</body>
 </html>
